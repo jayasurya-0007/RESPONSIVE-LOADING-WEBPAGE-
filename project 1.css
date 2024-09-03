@@ -1,0 +1,49 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: auto;
+    background: url('car.jpeg') no-repeat center center fixed;
+}
+.navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333;
+    padding: 10px 0;
+    transition: background-color 0.3s;
+}
+.navbar ul {
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    justify-content: center;
+}
+.navbar li {
+    margin: 0 15px;
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: color 0.3s;
+}
+.navbar a:hover{
+    color: #ff6347;
+}
+.content {
+    padding-top: 60px;
+}
+section {
+    padding: 100px 20px;
+    margin: 50px 0;
+}
+section:nth-child(odd) {
+    background-color: #f4f4f4;
+}
+section:nth-child(even) {
+    background-color: #e2e2e2;
+}
+.scrolled {
+    background-color: #222;
+}
